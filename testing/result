@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="1" hostname="xixi" name="pytest" skipped="0" tests="3" time="0.061" timestamp="2020-05-14T20:45:23.905630"><testcase classname="test_calc.TestCalc" file="test_calc.py" line="9" name="test_add_1" time="0.001"></testcase><testcase classname="test_calc.TestCalc" file="test_calc.py" line="14" name="test_add_2" time="0.001"><failure message="assert 0.30000000000000004 == 0.3">self = &lt;testing.test_calc.TestCalc object at 0x1087c3bb0&gt;
+
+    def test_add_2(self):
+        calc = Calc()
+        result = calc.add(0.1,0.2)
+&gt;       assert result == 0.3
+E       assert 0.30000000000000004 == 0.3
+
+test_calc.py:18: AssertionError</failure></testcase><testcase classname="test_calc.TestCalc" file="test_calc.py" line="19" name="test_div_1" time="0.001"></testcase></testsuite></testsuites>
