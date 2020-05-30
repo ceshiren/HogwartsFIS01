@@ -17,4 +17,4 @@ class InviteMemberPage(BasePage):
 
     def get_toast(self):
         print(self._driver.page_source)
-        self.find(MobileBy.XPATH, "//*[@text='添加成功']").click()
+        self.find(MobileBy.XPATH, "//*[@text='添加成功']")
